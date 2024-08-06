@@ -1,0 +1,114 @@
+.mydog{
+   background-color: white;
+    height: 500px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: -250px;
+    border-radius: 30px;
+    border-width: 10px;
+}
+
+.head{
+    color: rgb(218, 84, 255);
+}
+
+
+.bruh{
+    font-size: 50px;
+    margin-left: 160px;
+    color: #fb00ff;
+    
+}
+
+.yati{
+    color: rgb(255, 101, 227);
+    margin-top: 120px;
+    margin-left: 55px;
+    width: 400px;
+
+}
+
+body{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background: linear-gradient(135deg, #4a05ec, #fb00ff, #aa00ff, #0077ff);
+background-size: 400% 400%;
+animation: gradientAnimation 5s ease infinite;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+}
+
+.bobo{
+    font-size: 20px;
+    margin-top: -500px;
+}
+@keyframes gradientAnimation {
+0% {
+    background-position: 0% 50%;
+}
+50% {
+    background-position: 100% 50%;
+}
+100% {
+    background-position: 0% 50%;
+}
+}
+
+.user {
+    margin-top: 1px;
+    height: 50px;
+    width: 400px;
+    margin-left: 40px;
+    border-radius: 10px;
+    border-width: 1;
+    border-color: rgb(255, 101, 227);
+    border-style: solid;
+}
+
+.pass{
+    margin-top: 30px;
+    height: 50px;
+    width: 400px;
+    margin-left: 40px;
+    border-color: rgb(255, 101, 227);
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1;
+}
+
+.brah{
+    margin-left: -235px;
+    height: 40px;
+    width: 150px;
+    margin-top: 300px;
+    border-radius: 10px;
+    font-size: 20px;
+    border-color: rgb(255, 101, 227);
+    color: #fb00ff;
+    background-color: white;
+}
+
+.brah:hover{
+   background-color: #fb00ff;
+   color: white;
+
+}
+
+.brah1{
+    margin-left: -330px;
+    height: 40px;
+    width: 150px;
+    margin-top: 300px;
+    border-radius: 10px;
+    font-size: 20px;
+    border-color: rgb(255, 101, 227);
+    color: #fb00ff;
+    background-color: white;
+}
+
+.brah1:hover{
+    background-color: #fb00ff;
+    color: white;
+}
